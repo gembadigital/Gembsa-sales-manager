@@ -1,0 +1,45 @@
+# Secrets — never commit
+gemba-iq-api-key.txt
+*.key
+.env
+.env.*
+
+# Bugünkü test/debug script'leri (kalıcı kod değeri yok, biri ham key içeriyordu)
+fetch_crm.py
+analyze_results2.py
+analyze_search.py
+analyze_yahoo.py
+generate_summary.py
+parse_results.py
+parse_results_std.py
+rapor_ozeti.py
+run_clean_search.py
+run_clean_search2.py
+run_search.py
+run_yahoo_search.py
+send_mail.py
+send_report.py
+
+# CRM veri dökümleri (gerçek müşteri/prospect PII, cache)
+companies.json
+deals.json
+hot_leads.json
+warm_leads.json
+pending_outreach.json
+search_results.json
+yahoo_search_results.json
+yahoo_search_results2.json
+
+# Üretilmiş rapor içerikleri / geçici HTML
+prospecting_summary.txt
+report_content.txt
+ddg_test.html
+
+# Bugünkü edit yedekleri (git history bundan sonra yedek görevi görecek)
+*.pre-*
+
+# Genel loglar/cache
+*.log
+*.cache
+__pycache__/
+*.pyc
