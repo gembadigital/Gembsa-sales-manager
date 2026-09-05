@@ -1,0 +1,17 @@
+{
+  "_comment": "Korumali script'ler manifesti. Yeni bir korumali script eklemek icin: (1) sha256sum ile hash'ini hesapla, (2) allowlist'e ekliyorsan openclaw approvals allowlist entry id'sini not al (eklemiyorsan null birak), (3) buraya bir satir ekle. protected_scripts_integrity_check.py bu dosyayi okur, elle isim tek tek kodlanmis degildir.",
+  "scripts": {
+    "crm_read.py": {
+      "sha256": "3d4e869df71931ade4e288b418abd2b7b7b1b9ace4e4d09770f0505e628f7789",
+      "allowlist_entry_id": "e8de0659-a229-4a27-8e89-5d4f43991c73"
+    },
+    "internal_report_send.py": {
+      "sha256": "969cf1e06bac74553c5746e2a81268ddeb3b254d75396938e07a9b9081da7211",
+      "allowlist_entry_id": "a1c3f9e2-7b4d-4e6a-9c2f-3d8b6e1a4f57"
+    },
+    "tts_voice_reply.py": {
+      "sha256": "177c54d9389ae3514918f61d6bb69afe402074040524e1e3db52457d00805adb",
+      "allowlist_entry_id": "c2e6a1d4-9f3b-4a7e-8c1d-5b6e2f4a8d93"
+    }
+  }
+}

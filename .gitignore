@@ -1,5 +1,6 @@
 # Secrets — never commit
 gemba-iq-api-key.txt
+anthropic-api-key.txt
 *.key
 .env
 .env.*
@@ -43,3 +44,63 @@ ddg_test.html
 *.cache
 __pycache__/
 *.pyc
+
+# 2026-09-04 bulk import/CRM temizliği: scratch script'ler (kalıcı kod değeri yok)
+check_companies.py
+check_company_source.py
+check_eae.py
+check_existing_leads.py
+check_karmot.py
+bulk_import_leads.py
+create_companies_and_contacts.py
+create_leads_batch.py
+debug_raw.py
+debug_sources.py
+find_delete_endpoint.py
+find_pdf_deal.py
+fix_remaining_contacts.py
+get_deal_full.py
+get_our_contacts.py
+merge_ids_and_create_contacts.py
+pipeline_scan.py
+reengagement_logic.py
+reengagement_logic_v2.py
+search_deals_pdf.py
+read_xlsx.py
+test_delete.py
+test_delete2.py
+test_delete3.py
+test_delete4.py
+test_lead_endpoint.py
+test_lead_endpoint2.py
+test_lead_endpoint3.py
+test_pdf_endpoints.py
+gemba-sales-coach
+
+# CRM veri dökümleri / ham sonuçlar (gerçek müşteri/prospect PII)
+existing_companies.json
+existing_emails_dump.json
+our_contacts.json
+our_contacts_full.json
+leads_to_create.json
+leads_skipped.json
+companies_result.json
+contacts_created_result.json
+leads_created_result.json
+fix_result.json
+internal_report_content.txt
+outcome-log.jsonl
+
+# Sonuç günlüğü / protected-scripts izleme dosyaları (üretilen durum, kaynak değil)
+.protected-scripts.integrity-log
+.protected-scripts.drift-alerted.json
+
+# Ses testleri (Faz A/B sesli mesaj denemeleri)
+fahrettin_local.ogg
+fettah_local.ogg
+voice_reply.ogg
+voice_reply.wav
+tts_input.txt
+
+# Gerçek firma/kişi/e-posta içeren günlük notlar
+memory/2026-09-02.md
